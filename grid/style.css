@@ -1,0 +1,39 @@
+.main .top{
+    display: grid;
+    grid-template-columns:50% 50%;
+}
+.main .top .top-left img{
+    height: 470px;
+    width: 720px;
+}
+.top .top-right{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+
+}
+.top .top-right img{
+    height: 230px;
+    width: 350px;
+}
+.bottom{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.bottom img{
+    width: 720px;
+    height: 190px;
+}
+.bottom-right{
+    position: relative;
+}
+.bottom-right a{
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+}
+ a{
+    bottom:1px;
+    right: 30px;
+    z-index: 5;
+}
